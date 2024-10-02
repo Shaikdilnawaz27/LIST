@@ -15,9 +15,9 @@ Sample Input:
 Sample Output:
 6
 '''
-size = int(input())
+x = int(input())
 elements = []
-for _ in range(size):
+for _ in range(x):
     element = int(input())
     elements.append(element)
 largest_element = max(elements)
